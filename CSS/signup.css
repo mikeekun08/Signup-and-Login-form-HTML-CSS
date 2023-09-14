@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  margin: 10vh;
+}
+div.form-body {
+  background-color: hsl(30, 7%, 94%);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+div.container {
+  margin: 10px;
+  padding: 10px 30px 0 30px;
+}
+div.head-text {
+  background-color: hsl(0, 1%, 85%);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+h1#signup {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsl(0, 0%, 44%);
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+input.box {
+  display: block;
+  border: 1px solid hsl(0, 0%, 72%);
+  border-radius: 8px;
+  padding: 8px;
+  width: 30em;
+}
+input.box:hover {
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+}
+div.label {
+  color: hsl(0, 0%, 33%);
+  font-size: 15px;
+  margin: 0 0 5px 0;
+}
+input.signup-btn {
+  border: none;
+  background-color: hsl(0, 0%, 72%);
+  height: 40px;
+  width: 10em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+input.signup-btn:hover {
+  background-color: hsl(0, 0%, 29%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+input.signup-btn:active {
+  margin-left: 5px;
+  padding-top: 5px;
+}
+div.button {
+  text-align: center;
+}
+p#login1,
+p#login2 {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 50%);
+}
+p#login2 {
+  text-decoration: underline;
+}
+p#login2:hover {
+  color: hsl(0, 0%, 0%);
+}
+p#login2:visited {
+  color: hsl(120, 100%, 25%);
+}
+div.login-area {
+  text-align: center;
+}

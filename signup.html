@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="CSS/signup.css" />
+  </head>
+
+  <body>
+    <form action="connect.php" method="post">
+      <div class="form-body">
+        <div class="signup-container">
+          <div class="head-text">
+            <h1 id="signup">Sign up</h1>
+          </div>
+        </div>
+        <div class="container">
+          <div class="label">
+            <label for="FirstName">First Name:</label>
+          </div>
+          <input
+            type="text"
+            id="FirstName"
+            name="FirstName"
+            required
+            title="Input your first name"
+            class="box"
+          />
+          <br />
+          <div class="label">
+            <label for="LastName" class="label">Last Name:</label>
+          </div>
+          <input
+            type="text"
+            id="LastName"
+            name="LastName"
+            required
+            title="Input your last name"
+            class="box"
+          />
+          <br />
+          <div class="label">
+            <label for="Email" class="label">Email:</label>
+          </div>
+          <input
+            type="text"
+            id="Email"
+            name="Email"
+            required
+            title="Input your email address"
+            class="box"
+          />
+          <br />
+          <div class="label">
+            <label for="Password" class="label">Password:</label>
+          </div>
+          <input
+            type="password"
+            id="Password"
+            name="Password"
+            required
+            title="Input password minlength 8 characters"
+            minlength="8"
+            class="box"
+          />
+        </div>
+        <br />
+        <div class="button">
+          <input type="submit" value="Sign up" class="signup-btn" />
+        </div>
+        <br />
+        <div class="login-area">
+          <p id="login1">Already have an account?</p>
+          <a href="login.html">
+            <p id="login2">Log in here.</p>
+          </a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="CSS/login.css" />
+  </head>
+  <body>
+    <form action="login.php" method="post">
+      <div class="form-body">
+        <div class="login-container">
+          <div class="head-text">
+            <h1 id="login">Log in</h1>
+          </div>
+        </div>
+        <div class="container">
+          <br />
+          <div class="label">
+            <label for="Email" class="label">Email:</label>
+          </div>
+          <input
+            type="text"
+            id="Email"
+            name="Email"
+            required
+            title="Input your email address"
+            class="box"
+          />
+          <br />
+          <div class="label">
+            <label for="Password" class="label">Password:</label>
+          </div>
+          <input
+            type="password"
+            id="Password"
+            name="Password"
+            required
+            title="Input password minlength 8 characters"
+            minlength="8"
+            class="box"
+          />
+        </div>
+        <br />
+        <div class="button">
+          <input type="submit" value="Log in" class="login-btn" />
+        </div>
+
+        <br />
+        <div class="login-area">
+          <p id="login1">No account?</p>
+          <a href="signup.html">
+            <p id="login2">Sign up here.</p>
+          </a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
